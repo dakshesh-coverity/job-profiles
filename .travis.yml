@@ -8,7 +8,7 @@ language: java
   
 notifications:
   email:
-    - code@max-braun.com
+    - dvyas@coverity.com
   on_success: always
   on_failure: always
   
@@ -21,7 +21,7 @@ addons:
     project:
       name: "maxbraun/job-profiles"
       description: "Your project description here"
-    notification_email: code@max-braun.com
+    notification_email: dvyas@coverity.com
     build_command_prepend: "cov-configure --java"
     build_command: "cov-build --dir cov-int mvn clean compile"
     branch_pattern: master
