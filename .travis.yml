@@ -18,7 +18,7 @@ install:
 addons:
   coverity_scan:
     project:
-      name: "maxbraun/job-profiles"
+      name: "dakshesh-coverity/job-profiles"
       description: "Your project description here"
     notification_email: dvyas@coverity.com
     build_command: "mvn clean compile"
