@@ -22,8 +22,7 @@ addons:
       name: "maxbraun/job-profiles"
       description: "Your project description here"
     notification_email: dvyas@coverity.com
-    build_command_prepend: "cov-configure --java"
-    build_command: "cov-build --dir cov-int mvn clean compile"
+    build_command: "mvn clean compile"
     branch_pattern: master
     
     
